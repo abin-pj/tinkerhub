@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 17 17:42:28 2020
-
-@author: Ansu Mathew
-"""
 
 class learnment:
-    enc=1
     def _init_(self,stack,time,ml):
         self.stack=stack
         self.time=time
@@ -25,11 +18,7 @@ class learnment:
             return learnment()
 
 
-f=learnment()
-f.addStacks()
-f.setMentorOrLearner()
-f.setAvailableTime()
-k=f.getMentor('p','m')
+
 
 
         
